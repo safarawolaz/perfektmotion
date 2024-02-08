@@ -17,14 +17,6 @@ const roll = [
       id: 4,
       desc: 'Digital Printing'
     },
-    {
-      id: 5,
-      desc: 'Digital Marketing'
-    },
-    {
-      id: 6,
-      desc: 'Clothing Printing'
-    },
   ]
   
   const Ribbon = () => {

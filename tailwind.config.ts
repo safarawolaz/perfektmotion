@@ -89,7 +89,7 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
          slideIn: "1s ease forwards",
-         roll: "roll 100s linear infinite",
+         roll: "roll 14s linear infinite",
       },
     },
   },
