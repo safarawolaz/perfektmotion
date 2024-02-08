@@ -45,7 +45,7 @@ const Services = () => {
         </h3>
         <div className="grid md:grid-cols-3 gap-8 w-full mt-12 px-4 lg:px-10">
             {
-                services.map(service => <div key={service.heading} className='bg-[#101010] p-10 w-full'>
+                services.map(service => <div key={service.heading} className='bg-[#101010] p-6 w-full'>
                     <div className="">
                         {service.icon}
                     </div>
