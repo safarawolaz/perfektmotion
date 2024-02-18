@@ -4,32 +4,32 @@ import { ArrowUpRight, Camera, DotIcon, LucideBadgeX, LucideGlobe, LucidePencilR
 
 const services = [
     {
-        icon: <LucidePencilRuler className='text-[#ff0008] w-14 h-14'/>,
+        icon: <LucidePencilRuler className='text-[#d82127] w-14 h-14'/>,
         heading: "Graphic Design",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },
     {
-        icon: <UsersRound  className='text-[#ff0008] w-14 h-14'/>,
+        icon: <UsersRound  className='text-[#d82127] w-14 h-14'/>,
         heading: "Digital Marketing",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },
     {
-        icon: <PrinterIcon  className='text-[#ff0008] w-14 h-14'/>,
+        icon: <PrinterIcon  className='text-[#d82127] w-14 h-14'/>,
         heading: "Digital Printing",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },
     {
-        icon: <LucideShirt  className='text-[#ff0008] w-14 h-14'/>,
+        icon: <LucideShirt  className='text-[#d82127] w-14 h-14'/>,
         heading: "Clothing Printing",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },
     {
-        icon: <Camera  className='text-[#ff0008] w-14 h-14'/>,
+        icon: <Camera  className='text-[#d82127] w-14 h-14'/>,
         heading: "Photography",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },
     {
-        icon: <Video  className='text-[#ff0008] w-14 h-14'/>,
+        icon: <Video  className='text-[#d82127] w-14 h-14'/>,
         heading: "Videography",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta tempore eaque velit, in eos adipisci rem, id facilis nemo hic? Enim, architecto quidem cumque quisquam vel provident numquam molestias.",
     },

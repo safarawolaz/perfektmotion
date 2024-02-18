@@ -22,24 +22,23 @@ import Image from 'next/image'
 const links = [
     {
         id: 1,
-        name: 'about',
-        url: '/about'
+        title: 'about',
+        url: "/about"
     },
     {
         id: 2,
-        name: 'services',
-        url: '/services'
+        title: 'portfolio',
+        url: "/portfolio"
     },
     {
         id: 3,
-        name: 'our work',
-        url: '/projects'
+        title: 'blogs',
+        url: "/blogs"
     },
-    
     {
         id: 5,
-        name: 'contact',
-        url: '/contact'
+        title: 'contact',
+        url: "/contact"
     },
 ]
 
@@ -67,7 +66,7 @@ const MobileLink = () => {
                                             'text-[#ff0008] font-bold transition-all' : pathname === link.url
                                         }
                                     )}>
-                                        {link.name}
+                                        {link.title}
                                     </Link>
                                 </SheetClose>
                             ))

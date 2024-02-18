@@ -82,14 +82,14 @@ module.exports = {
          },
          roll: {
           "0%": {transform: "translateX(0%)"},
-          "100%": {transform: "translateX(-200%)"}
+          "100%": {transform: "translateX(-400%)"}
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
          slideIn: "1s ease forwards",
-         roll: "roll 14s linear infinite",
+         roll: "roll 28s linear infinite",
       },
     },
   },

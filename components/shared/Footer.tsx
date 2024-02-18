@@ -1,4 +1,4 @@
-import { DribbbleIcon, FacebookIcon, InstagramIcon, LinkedinIcon, MailCheckIcon } from 'lucide-react'
+import { DribbbleIcon, FacebookIcon, InstagramIcon, LinkedinIcon, MailCheckIcon, MapPinIcon } from 'lucide-react'
 import React from 'react'
 
 const Footer = () => {
@@ -13,6 +13,10 @@ const Footer = () => {
                 <LinkedinIcon className='w-4 h-4 text-white' />
             </div>
             <div className="text-white text-xl flex items-center"><MailCheckIcon className='mr-2 w-5 h-5' />info@perfectmotion.co.za</div>
+            
+        </div>
+        <div className="text-white text-base flex items-center mt-4">
+            <MapPinIcon className='mr-2 w-5 h-5'/> 12 Bester Street Mbombela, 1200
         </div>
    </section>
   )

@@ -63,12 +63,16 @@ const Navbar = () => {
                 <ul className='hidden lg:flex lg:gap-2 xl:gap-8 items-center'>
                     {
                         links.map(link => (
-                    <li key={link.id} className='py-6 px-3 group-hover:text-[#ff0008]'>
-                        <Link href={link.url} className={cn('uppercase font-medium text-base tracking-wider flex items-center text-white gap-1 hover:text-[#ff0008] transition-all', 
+                    <li key={link.id} className='py-6 px-3 group-hover:text-[#d82127]'>
+                        <Link href={link.url} className={cn('uppercase font-medium text-base tracking-wider flex items-center text-white gap-1 hover:text-[#d82127] transition-all', 
                             {
-                            'text-[#ff0008] font-bold transition-all' : pathname === link.url, 
+                            'text-[#d82127] font-bold transition-all' : pathname === link.url, 
                             }) }>
-                                <DotIcon className='text-white mr-[2px] hover:text-[#ff0008]' />
+                                <DotIcon className={cn('text-white mr-[2px] hover:text-[#d82127]',
+                                {
+                                    'text-[#d82127]' : pathname === link.url
+                                }
+                                )} />
                           {link.title}
                         </Link>
                     </li>))

@@ -15,7 +15,7 @@ const posts = [
         date: "26 Jul",
         category: "design",
         comments: "2 comments",
-        heading: "Why a company needs branding"
+        heading: "Why companies needs branding"
     },
     {
         imgUrl: "/post-3.jpg",

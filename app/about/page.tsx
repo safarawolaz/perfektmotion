@@ -20,7 +20,7 @@ const page = () => {
                     <h3 className='text-white text-4xl lg:text-5xl font-bold capitalize tracking-tight mt-3'>
                         About us
                     </h3>
-                    <p className='text-[#ff0008] text-lg mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eos odio quo omnis corporis perferendis.</p>
+                    <p className='text-[#d13b40] text-lg mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eos odio quo omnis corporis perferendis.</p>
                     <p className='text-base leading-[1.7] mt-4 text-[#4b4b4b]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eligendi id aliquam quasi eaque suscipit nesciunt maxime reiciendis delectus voluptates quia aperiam tempora dolore voluptate iste dolores mollitia omnis. Nesciunt.</p>
                     <p className='text-base leading-[1.7] text-[#4b4b4b] mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eligendi id aliquam quasi eaque suscipit </p>
                     <Btn text="get in touch" />
